@@ -1,42 +1,134 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+
+}
+.container {
+  width: 1440px;
+}
+header {
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 20px;
+}
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+  padding-left: 123px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.logo h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+  color: #000000;
+  width: 91px;
+  padding-top: 5px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.search {
+  width: 553px;
+  /* height: 48px; */
+  display: flex;
+  gap: 10px;
+  border-radius: 30px;
+  background-color: #F0F1F2;
+  padding-left: 40px;
+  margin-top: 12px;
+  height: 48px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search img {
+  width: 16px;
+  height: 18px;
+  margin-top: 13px;
+  /* padding-left: 48px; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.search input {
+  border: none;
+  height: 15px;
+  width: 111px;
+  /* padding-top: 12px; */
+  margin-top: 16px;
+  background-color: transparent;
 }
-
-.card {
-  padding: 2em;
+.globus {
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 167px;
+  margin-top: 16px;
 }
-
-.read-the-docs {
-  color: #888;
+.location {
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  margin-top: 12px;
+}
+.location img {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.location img:hover {
+  transform: scale(1.1);
+}
+.text-loca {
+  padding-left: 12px;
+}
+.location .text-loca p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.12px;
+  color: #9A9EA6;
+  width: 37px;
+}
+.location .text-loca h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  color: #4475F2;
+  width: 174px;
+}
+.hr {
+  /* border: 1px solid #DFDFE0; */
+  color: #DFDFE0;
+}
+.nav-item {
+  display: flex;
+  width: 1196px;
+  height: 66px;
+}
+.selection {
+  /* width: 1000px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 122px;
+}
+.selection option p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.64px;
+  color: #9A9EA6;
+  width: 76px;
+  border: none;
+}
+.selection select {
+  border: none;
+}
+.clone {
+  display: flex;
+  gap: 8px;
+ 
 }
