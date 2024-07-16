@@ -104,14 +104,19 @@ header {
   color: #DFDFE0;
 }
 .nav-item {
+  /* gap: 600px; */
   display: flex;
   width: 1196px;
   height: 66px;
 }
 .selection {
-  /* width: 1000px; */
+  /* height: Hug (18px)px; */
+  gap: 57px;
+  /* opacity: 0px; */
+  width: 1092px;
+
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin-top: 25px;
   margin-left: 122px;
@@ -130,5 +135,230 @@ header {
 .clone {
   display: flex;
   gap: 8px;
- 
+  padding-top: 20px;
+  padding-left: 200px;
+}
+.clone img {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  transition: all 0.5s; 
+}
+.clone img:hover {
+  transform: scale(1.1);
+  border: 1px solid #4475F2;
+  border-radius: 50%;
+}
+
+.friend {
+  display: flex;
+  /* gap: ; */
+  margin-top: 43px;
+  margin-left: 120px;
+  height: 707px;
+  top: 187px;
+  left: 120px;
+  border: 1px 0px 0px 0px;
+  width: 1286px;
+  /* border: 1px solid #4475F2; */
+}
+.card-one {
+  height: 36px;
+  top: 216px;
+  left: 120px;
+  /* gap: 0px; */
+  border-radius: 39px;
+  /* opacity: 0px; */
+  width: 299px;
+  background-color: #E5EDFF;
+}
+
+.fiend-commit {
+  height: 529px;
+  top: 216px;
+  left: 120px;
+  /* gap: 0px; */
+  border: 1px 0px 0px 0px;
+  /* opacity: 0px; */
+  width: 660px;
+
+}
+
+.hea-one {
+  height: 36px;
+  width: 299px;
+
+}
+.hea-one p {
+  padding-top: 8px;
+  padding-left: 22px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  text-align: left;
+  /* font-family: Plus Jakarta Sans; */
+  color: #4F7DF3;
+}
+.nav-tue {
+  height: 267px;
+  top: 264px;
+  left: 122px;
+  width: 658px;
+}
+
+.nav-tue p{
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  /* font-family: Plus Jakarta Sans; */
+  color: #181E4B;
+  /* width: 658px; */
+}
+.nav-tue span {
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  /* font-family: Plus Jakarta Sans; */
+  color: #4475F2;
+}
+
+.text-footer {
+  height: 90px;
+  width: 440px;
+  margin-top: 400px;
+  /* padding-left: 120px; */
+}
+.text-footer p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  /* text-align: left; */
+  /* font-family: Plus Jakarta Sans; */
+  color: #5E6282;
+}
+.royal {
+  /* border: none; */
+  padding-top: 45px;
+  display: flex;
+  gap: 41px;
+  height: 60px;
+  width: 403px;
+}
+.royal .one {
+  height: 60px;
+  width: 198px;
+  background-color: #4475F2;
+  box-shadow: 0px 20px 35px 0px #4475F236;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+} 
+.royal .one:hover {
+  transform: scale(0.9);
+}
+.royal .one p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  text-align: center;
+  color: #FFFFFF;
+
+  /* font-family: Plus Jakarta Sans; */
+}
+.fyustie {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  gap: 30px;
+  height: 50px;
+  width: 164px;
+}
+.fyustie .tue {
+  border: none;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+.fyustie .tue img {
+  cursor: pointer;
+  /* transition: all 0.5s; */
+}
+.fyustie p {
+  /* font-size: 17px; */
+  font-weight: 700;
+  line-height: 21.42px;
+  text-align: left;
+  color: #686D77;
+  /* width: 400px; */
+  /* height: 50px; */
+  padding-top: 20px;
+}
+
+.taxi {
+  /* gap: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 180.57px;
+  width: 1300px;
+  padding-left: 125px;
+}
+
+.footer-card {
+  margin-left: 122px;
+  height: 532.64px;
+  width: 1196px;
+  margin-top: 153px;
+  /* border: 1px solid #4475F2; */
+}
+.footer-card p {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26.5px;
+  letter-spacing: 0.095em;
+  text-align: left;
+  color: #4475F2;
+}
+.fruits-footer {
+  gap: 280px;
+  display: flex;
+  /* gap: 900px; */
+}
+.footer-card .fruits-footer h3 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 784px;
+  color: #14183E;
+}
+.fruits-footer p {
+  /* font-family: Plus Jakarta Sans; */
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  /* width: 114px; */
+  color: #4475F2;
+}
+.images-footer {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.images-footer img {
+  border-radius: 8px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.images-footer img:hover {
+  transform: scale(1.1);
 }

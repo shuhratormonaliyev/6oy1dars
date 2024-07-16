@@ -66,23 +66,27 @@ function App() {
       </div>
 
 <div className='friend'>
+
+<div className='fiend-commit'>
 <div className='card-one'>
   <div className='hea-one'><p>✈ • Explore the wonderful indonesia!</p></div>
-  <div className='nav-tue'>Liburan & nikmati
-<span>tempat baru</span> di
-indonesia  ️🏝</div>
+  <div className='nav-tue'><p>Liburan & nikmati</p>
+<span>tempat baru</span><p> di
+indonesia 🏝</p></div>
 </div>
 <div className='text-footer'>
   <p>Destinize membuat kamu selalu update terkait tempat liburan baru di Indonesia dengan mengikuti perkembangan para influencer di sosial media ✨</p>
 </div>
 <div className='royal'>
-  <button className='one'>Mulai sekarang →</button>
+  <button className='one'><p>Mulai sekarang →</p></button>
   <button className='fyustie'>
-  <button className='tue'><img src="src/images/play.png"  alt=""/></button>
+  <button className='tue'>
+    <img src="src/images/play.png"  alt="img"/></button>
   <p>Putar Demo</p>
   </button>
 </div>
 
+</div>
 
 <div className='card-tue'>
   <img src="src/images/img.png" alt="img" width={698} height={707} />
@@ -100,8 +104,8 @@ indonesia  ️🏝</div>
 
 <div className='footer-card'>
   <p>DESTINASI FAVORIT</p>
-  <div className='text-footer'>
-    <h3>✈ • Temukan Destinasi Favoritmu</h3>
+  <div className='fruits-footer'>
+   <div className='head'> <h3>✈ • Temukan Destinasi Favoritmu</h3></div>
     <p>Lihat semua</p>
   </div>
   <div className='images-footer'>
